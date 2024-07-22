@@ -24,10 +24,6 @@
 import {
   AppMain,
   Navbar
-  // Settings,
-  // Sidebar,
-  // TagsView,
-  // Intelligentqa
 } from './components'
 import Intelligentqa from './components/Intelligentqa'
 import ResizeMixin from './mixin/ResizeHandler'
@@ -39,10 +35,7 @@ export default {
   components: {
     AppMain,
     Navbar,
-    // Settings,
     Intelligentqa
-    // Sidebar,
-    // TagsView,
   },
   mixins: [ResizeMixin],
   computed: {

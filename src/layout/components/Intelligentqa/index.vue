@@ -37,6 +37,7 @@
 <script>
 import './index.css'
 import SentenceCard from './SentenceCard'
+import { fetchList } from '@/api/platform'
 export default {
   components: {
     SentenceCard
@@ -71,6 +72,9 @@ export default {
         this.buttonLoading = false
         this.scrollToBottom()
       }
+      fetchList().then((res) => {
+        console.log(res)
+      })
     }
   }
 }

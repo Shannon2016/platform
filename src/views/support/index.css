@@ -1,0 +1,28 @@
+.support-wrapper {
+    padding: 40px;
+    background-color: #ffffff;
+    height: 100%;
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;  
+    align-content: space-between; */
+
+    .el-scrollbar__wrap {
+      overflow-x: hidden;
+    }
+    .is-horizontal {
+      display: none;
+    }
+
+    .page-header-container{
+      display: flex;
+      align-items: center;
+
+      .button-container{
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+    
+  }

@@ -1,0 +1,12 @@
+.my-card-wrapper{
+    width: calc(50% - 10px);
+    height: 120px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    /* color: #3e3f42; */
+}

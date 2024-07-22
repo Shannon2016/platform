@@ -1,0 +1,32 @@
+.card-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .card-content {
+    border-radius: 5px;
+    min-height: 40px;
+    width: calc(100% - 100px);
+    word-wrap: break-word;
+    word-break: normal;
+    padding: 8px;
+  }
+
+  .left-type-content{
+    margin-left: 10px; 
+    background-color: #ffffff;
+  }
+  .right-type-content{
+    margin-right: 10px;
+    background-color: #e0e0ff;
+  }
+}
+
+.left-type-wrapper {
+  justify-content: flex-start;
+}
+
+.right-type-wrapper {
+  justify-content: flex-end;
+}
